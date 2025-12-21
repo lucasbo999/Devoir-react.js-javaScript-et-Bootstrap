@@ -5,13 +5,13 @@ function Portfolio() {
        <div className="text-center m-4">
           <h1>Portfolio</h1>
           <p> Voici quelques-unes de mes réalisations</p>
-          <hr className="col-4 mx-auto border-primary" />
+          <hr className="col-4 mx-auto border-4 border-primary opacity-100" />
        </div>
 
 
-        <div className="col-sm-9 row  text-center mx-auto mb-4">
+        <div className="col-11 col-md-10 row  text-center mx-auto mb-4">
 
-          <div className="col-9 col-md-4 min-width mx-auto ">
+          <div className="col-9 col-md min-width mx-auto ">
             <div className=" card m-3 " >
               <img src="../public/images/portfolio/fresh-food.jpg" className="card-img-top " alt="..."/>
               <div className="card-body">
@@ -25,7 +25,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className="col-9 col-md-4 min-width mx-auto">
+          <div className=" col-9 col-md min-width mx-auto">
             <div className=" card m-3 " >
               <img src="../public/images/portfolio/restaurant-japonais.jpg" className="card-img-top" alt="..."/>
               <div className="card-body">
@@ -39,7 +39,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className="col-9 col-md-4 min-width mx-auto">
+          <div className="col-9 col-md min-width mx-auto">
             <div className=" card m-3 " >
               <img src="../public/images/portfolio/espace-bien-etre.jpg" className="card-img-top" alt="..."/>
               <div className="card-body">
@@ -53,7 +53,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className="col-9 col-md-4 min-width mx-auto">
+          <div className="col-9 col-md min-width mx-auto">
             <div className=" card m-3 " >
               <img src="../public/images/portfolio/seo.jpg" className="card-img-top" alt="..."/>
               <div className="card-body">
@@ -67,7 +67,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className="col-9 col-md-4 min-width mx-auto">
+          <div className="col-9 col-md min-width mx-auto">
             <div className=" card m-3 " >
               <img src="../public/images/portfolio/coder.jpg" className="card-img-top min-widh" alt="..."/>
               <div className="card-body">
@@ -81,7 +81,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className="col-9 col-md-4 min-width mx-auto">
+          <div className="col-9 col-md min-width mx-auto">
             <div className=" card m-3 " >
               <img src="../public/images/portfolio/screens.jpg" className="card-img-top" alt="..."/>
               <div className="card-body">

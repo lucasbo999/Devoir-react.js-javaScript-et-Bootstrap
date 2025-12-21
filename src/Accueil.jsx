@@ -10,7 +10,7 @@ function accueil() {
       </header>
       <div className=" row col-11 col-md-8 mx-auto my-5 p-4 shadow text-dark ">
         <section className="col-md-6">
-          <h2 className="pb-2 mb-4 border-bottom border-primary">À propos</h2>
+          <h2 className="pb-2 mb-4 border-bottom border-3 border-primary">À propos</h2>
           <img className="col-12" src="../public/images/john-doe-about.jpg" alt="" />
           <div className="m-3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -30,7 +30,7 @@ function accueil() {
           
         </section>
         <section className="col-md-6" >
-            <h2  className="pb-2 mb-4 border-bottom border-primary">Mes compétences</h2>
+            <h2  className="pb-2 mb-4 border-bottom border-3 border-primary">Mes compétences</h2>
 
             <h5>HTML 90%</h5>
             <div className="progress mb-3">
