@@ -1,12 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Accueil from "./Accueil";
-import Contact from "./contact";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import * as bootstrap from 'bootstrap'
+import Accueil from "./pages/Accueil";
+import Contact from "./pages/contact";
 import Navigation from "./navigation";
 import Footer from "./footer";
-import Services from "./services";
-import Portfolio from "./portfolio";
-import Mentions from "./mentions";
+import Services from "./pages/services";
+import Portfolio from "./pages/portfolio";
+import Mentions from "./pages/mentions";
 
 function App() {
   return (

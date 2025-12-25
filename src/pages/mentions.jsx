@@ -46,8 +46,9 @@ function Mentions() {
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div className="accordion-body test-start">
-              <strong>Crédits</strong> Ce site a été réalisé par John Doe, étudiant au <a href="">Centre Européen de formation</a>. <br />
+            <div className="accordion-body text-start">
+              <strong>Crédits</strong><br />
+               Ce site a été réalisé par John Doe, étudiant au <a href="">Centre Européen de formation</a>. <br />
               Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="">Pixabay</a>. <br />
               La favicon de ce site a été fournie par <a href="">John doe Icons erstellt von Freepik - Flaticon</a>. <br />
             </div>
